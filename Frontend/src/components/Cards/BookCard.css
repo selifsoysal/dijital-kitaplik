@@ -1,0 +1,82 @@
+.book-card {
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.book-content {
+  text-align: center;
+}
+
+.book-image-container {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.book-image-container img {
+  width: 100%;
+}
+
+.book-title {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.book-author {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.author-link {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.author-link:hover {
+  color: #0056b3;
+}
+
+.book-image-container {
+  position: relative;
+}
+
+/* Hover efekti için */
+.add-to-reading-list {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.book-image-container:hover .add-to-reading-list {
+  display: block;
+}
+
+.add-to-reading-list button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.add-to-reading-list button:hover {
+  background-color: #0056b3;
+}

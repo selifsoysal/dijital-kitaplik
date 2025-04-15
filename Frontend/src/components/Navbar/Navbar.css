@@ -1,0 +1,13 @@
+.navbar {
+  padding: 15px 20px !important;
+  height: 70px;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar ul {
+  gap: 15px;
+}
+
+.navbar a {
+  color: rgb(1, 19, 12);
+}

@@ -1,0 +1,54 @@
+.author-details-page {
+  padding: 20px;
+  margin-top: 90px !important;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.author-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.author-info h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.author-info p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.books-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-card {
+  width: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.book-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.book-card h3 {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #333;
+}

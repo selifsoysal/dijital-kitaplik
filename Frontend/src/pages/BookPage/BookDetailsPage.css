@@ -1,0 +1,28 @@
+.book-details {
+   max-width: 1200px;
+   margin-top: 150px !important;
+ }
+ 
+ .book-cover {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ 
+.book-details ul {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .book-details ul li {
+   display: inline-block;
+   background: #e9f5ff;
+   color: #007bff;
+   padding: 4px 8px;
+   border-radius: 4px;
+   margin: 3px;
+   font-size: 0.9em;
+ }
+ 

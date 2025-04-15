@@ -1,0 +1,29 @@
+.hero-section {
+  background-image: url('./src/assets/DALL·E 2024-12-28 02.03.03 - A minimalist background image for the hero section of a publishing house website. The design features a smooth gradient in a deep green tone, inspired.webp'); /* Arka plan resmi */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-size: 1.25em;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.hero-section Button {
+ border: 1px solid rgb(193, 218, 201);
+}
+
+.hero-section Button:hover {
+  border: 1px solid rgb(118,187,175);
+ }

@@ -1,0 +1,36 @@
+.authors-scroll-wrapper {
+   position: relative;
+   overflow: hidden;
+ }
+ 
+ .authors-scroll-container {
+   display: flex;
+   overflow-x: auto;
+   scroll-behavior: smooth;
+   gap: 16px;
+   padding: 10px;
+ }
+ 
+ .authors-scroll-container::-webkit-scrollbar {
+   display: none;
+ }
+ 
+ .author-item {
+   flex: 0 0 auto;
+   width: 150px;
+   text-align: center;
+   transition: transform 0.3s ease-in-out;
+ }
+
+ .author-item:hover {
+  transform: translateY(-5px);
+}
+
+ .author-profile-img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   object-fit: cover;
+   border: 2px solid #ddd;
+ }
+ 

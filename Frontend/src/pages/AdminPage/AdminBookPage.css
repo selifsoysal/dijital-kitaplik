@@ -1,0 +1,18 @@
+.admin-book-page {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.filters-sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.books-list-container {
+  gap: 16px;
+  flex: 1;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,57 @@
+.reading-list-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 90px auto 0 auto;
+}
+
+.reading-list {
+  margin-bottom: 20px;
+  border: 1px solid rgb(208, 205, 205);
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.reading-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.reading-list-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dropdown-icon {
+  font-size: 16px;
+}
+
+.delete-list-icon {
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+
+.book-list {
+  margin-top: 10px;
+}
+
+.book-card-container {
+  gap: 10px;
+}
+
+.remove-book-button {
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(5, 52, 44);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.remove-book-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}

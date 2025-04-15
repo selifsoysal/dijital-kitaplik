@@ -1,0 +1,37 @@
+.authors-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin-top: 70px;
+}
+
+.authors-page .authors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.author-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.author-card img:hover {
+  transform: scale(1.05);
+}
+
+.author-card h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+
